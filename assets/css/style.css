@@ -733,7 +733,7 @@ margin-left:138px; }
  height: 250px;
  padding: 20px;
  text-align:center ;
- background-color:color-mix(in srgb, #95bdc6 25%, white 25%);
+ background-color:color-mix(in srgb, #c1f3fe 25%, white 25%);
  backdrop-filter: blur(2px);
  overflow: auto;
 }
