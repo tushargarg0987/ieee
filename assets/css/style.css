@@ -728,7 +728,7 @@ margin-left:138px; }
  
 .boxabc
 {
- width: 300px;
+ width: 400px;
  margin:10px;
  height: 250px;
  padding: 20px;
@@ -746,10 +746,10 @@ margin-left:138px; }
   
   
  }
- .boxabc:hover h2{
+ /* .boxabc:hover h2{
   font-size: 35px;
 
- }
+ } */
  .boxabc h6
  {
    display: flex;
@@ -766,7 +766,7 @@ margin-left:138px; }
   justify-content: center;
   align-items: center;
   height: 135vh;
-  background-image: url(../images/ABOUTA.jpg);
+  /* background-image: url(../images/ABOUTA.jpg); */
   background-size: cover;
   background-position: center;
 }
@@ -790,9 +790,9 @@ margin-left:138px; }
   font-size: 25px;
 }
 
-.boxabc:hover h2 {
+/* .boxabc:hover h2 {
   font-size: 35px;
-}
+} */
 
 .boxabc h6 {
   display: flex;
@@ -1117,3 +1117,21 @@ margin-left:138px; }
     border-right: 0px; } }
 
 /*# sourceMappingURL=style.css.map */
+
+.dropdownItem{
+  border: none;
+  background-color: #ffffff00;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.dropdownItem:focus{
+  border: none;
+  outline: none;
+}
+
+.card-header{
+  background-color: rgb(255 255 255 / 0%);
+  border-top-width: 0px;
+}
