@@ -1122,8 +1122,10 @@ margin-left:138px; }
   border: none;
   background-color: #ffffff00;
   width: 100%;
-  text-align: left;
+  /* text-align: left; */
   cursor: pointer;
+  display: flex;
+  justify-content: space-between;
 }
 
 .dropdownItem:focus{
