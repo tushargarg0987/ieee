@@ -1117,3 +1117,21 @@ margin-left:138px; }
     border-right: 0px; } }
 
 /*# sourceMappingURL=style.css.map */
+
+.dropdownItem{
+  border: none;
+  background-color: #ffffff00;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.dropdownItem:focus{
+  border: none;
+  outline: none;
+}
+
+.card-header{
+  background-color: rgb(255 255 255 / 0%);
+  border-top-width: 0px;
+}
