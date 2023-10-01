@@ -572,7 +572,7 @@ margin-left:138px; }
 
 /* =================== Our Team Starts Here =================== */
 .our-team {
-  padding: 50px;
+  padding: 10px;
   background-color:lightgrey;
   
  }
@@ -1018,7 +1018,7 @@ header .nav-col .navbar-nav li a p{
 }
 
 .footer p.phone {
-  margin-top: .8em;
+  /* margin-top: .8em; */
   text-transform: capitalize;
 }
 
