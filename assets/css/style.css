@@ -1172,3 +1172,38 @@ header .nav-col .navbar-nav li a p{
            text-align: center;
 }
 
+.explore{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+  margin: 0 5rem;
+}
+.containerPlace{
+  margin-bottom: 13rem;
+  text-align: center;
+}
+
+.textContainer{
+  margin-top: -15rem;
+}
+
+.imgPlace{
+  width: 350px;
+  height: auto;
+}
+.headingExplore{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;margin-bottom: 4rem; margin-top: 2rem;
+}
+
+.textWeight{
+  font-weight: 600;
+  color: white;
+}
+
+
+
