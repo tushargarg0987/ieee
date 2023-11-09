@@ -811,6 +811,10 @@ header .nav-col .navbar-nav li a:hover {
   background-position: center;
 }
 
+
+
+
+
 .boxabc {
   width: 400px;
   margin: 10px;
@@ -1303,7 +1307,74 @@ background-sectiona {
   background-position: center;
 }
 
+
+
+
+
+
+
+
+
+
 .placeOuter{
   background-size: cover;
   padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .containerabc {
+    flex-direction: column;
+  }
+
+  .boxabc{
+    width: 80vw;
+    height: 50vh;
+    overflow: auto;
+    margin-right: 20px;
+  }
+}
+
+ .container .aboutright .img1 .new-image {
+  margin-top: -330px;
+}
+
+@media screen and (max-width: 768px){
+  .container .aboutright .img1 .new-image {
+    margin-top: 0px;
+  }
+  
+}
+
+.container .aboutright .img2 .new-image {
+  margin-top: -280px;
+}
+
+@media screen and (max-width: 768px){
+  .container .aboutright .img2 .new-image {
+    margin-top: 0px;
+  }
+  
+}
+
+.container .aboutright .img3 .new-image {
+  margin-top: -300px;
+}
+
+@media screen and (max-width: 768px){
+  .container .aboutright .img3 .new-image {
+    margin-top: 0px;
+  }
+  
+}
+
+
+.container .aboutright .img4 .new-image {
+  margin-top: -370px;
+}
+
+@media screen and (max-width: 768px){
+  .container .aboutright .img4 .new-image {
+    margin-top: 0px;
+  }
+  
 }
