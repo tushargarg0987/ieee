@@ -1377,6 +1377,13 @@ background-sectiona {
 .setDataBhai{
   font-size: 40px;
 }
+.internationalFontChange{
+  font-size: 26px;
+}
+
+.headerDataSize{
+  font-size: 50px;
+}
 
 @media screen and (max-width: 768px){
   .container .aboutright .img4 .new-image {
@@ -1392,6 +1399,15 @@ background-sectiona {
   }
   .setDataBhai{
     font-size: 20px;
+  }
+
+  .internationalFontChange{
+    font-size: 15px;
+    width: 80vw;
+  }
+
+  .headerDataSize{
+    font-size: 30px;
   }
 }
 
