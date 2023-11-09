@@ -809,6 +809,10 @@ header .nav-col .navbar-nav li a:hover {
   background-position: center;
 }
 
+
+
+
+
 .boxabc {
   width: 400px;
   margin: 10px;
@@ -1304,4 +1308,17 @@ background-sectiona {
 .placeOuter{
   background-size: cover;
   padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .containerabc {
+    flex-direction: column;
+  }
+
+  .boxabc{
+    width: 80vw;
+    height: 50vh;
+    overflow: auto;
+    margin-right: 20px;
+  }
 }
