@@ -1303,3 +1303,59 @@ background-sectiona {
   background-size: cover;
   background-position: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+ .container .aboutright .img1 .new-image {
+  margin-top: -330px;
+}
+
+@media screen and (max-width: 768px){
+  .container .aboutright .img1 .new-image {
+    margin-top: 0px;
+  }
+  
+}
+
+.container .aboutright .img2 .new-image {
+  margin-top: -280px;
+}
+
+@media screen and (max-width: 768px){
+  .container .aboutright .img2 .new-image {
+    margin-top: 0px;
+  }
+  
+}
+
+.container .aboutright .img3 .new-image {
+  margin-top: -300px;
+}
+
+@media screen and (max-width: 768px){
+  .container .aboutright .img3 .new-image {
+    margin-top: 0px;
+  }
+  
+}
+
+
+.container .aboutright .img4 .new-image {
+  margin-top: -370px;
+}
+
+@media screen and (max-width: 768px){
+  .container .aboutright .img4 .new-image {
+    margin-top: 0px;
+  }
+  
+}
