@@ -671,7 +671,6 @@ header .nav-col .navbar-nav li a:hover {
   align-items: center;
   height: 200px;
   width: 230px;
-  object-fit: cover;
 }
 .our-team .team-row .single-usr {
   transition: transform 0.3s ease; /* Adjust the duration and easing function as needed */
