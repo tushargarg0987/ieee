@@ -1193,6 +1193,8 @@ header .nav-col .navbar-nav li a p{
 
 .containerPlace:hover {
   background-color: #f0f0f0;
+  opacity: 0.8;
+  filter: alpha(opacity=30);
 }
 
 
@@ -1229,7 +1231,7 @@ header .nav-col .navbar-nav li a p{
   color:#ffffff;
 }
 
-.containerPlace .textContainer .viewMore:hover{
+.containerPlace .viewMore:hover{
   color:red;
   font-size: 15px;
 } 
