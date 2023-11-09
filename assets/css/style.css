@@ -809,6 +809,10 @@ header .nav-col .navbar-nav li a:hover {
   background-position: center;
 }
 
+
+
+
+
 .boxabc {
   width: 400px;
   margin: 10px;
@@ -1303,4 +1307,17 @@ background-sectiona {
   background-image: url("https://tse2.mm.bing.net/th?id=OIP.I7jguSGYXl1e1IxWtZVkOQHaE4&pid=Api&P=0&h=220");
   background-size: cover;
   background-position: center;
+}
+
+@media (max-width: 768px) {
+  .containerabc {
+    flex-direction: column;
+  }
+
+  .boxabc{
+    width: 80vw;
+    height: 50vh;
+    overflow: auto;
+    margin-right: 20px;
+  }
 }
