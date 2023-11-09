@@ -1242,20 +1242,16 @@ background-sectiona {
 }
 
 .explore {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 30px;
-  padding: 0 4rem 3rem;
+  
 }
 .containerPlace {
-  /* width: 30%; */
+  width: 100%;
   background-size: cover;
-  /* height: 400px; */
   width: auto;
   text-align: center;
   transition: background-color 0.3s;
   min-height: 18rem;
-
+  padding: 0;
   border-radius: 20px;
   overflow: hidden;
 }
@@ -1268,7 +1264,7 @@ background-sectiona {
 
 .textContainer {
   transition: margin-top 0.3s;
-  height: 100%;
+  height: 18rem;
   width: 100%;
   background-color: #00000064;
   display: flex;
@@ -1307,6 +1303,11 @@ background-sectiona {
   background-image: url("https://tse2.mm.bing.net/th?id=OIP.I7jguSGYXl1e1IxWtZVkOQHaE4&pid=Api&P=0&h=220");
   background-size: cover;
   background-position: center;
+}
+
+.placeOuter{
+  background-size: cover;
+  padding: 10px;
 }
 
 @media (max-width: 768px) {
