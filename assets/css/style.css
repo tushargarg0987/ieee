@@ -1242,9 +1242,6 @@ background-sectiona {
   text-align: center;
 }
 
-.explore {
-  
-}
 .containerPlace {
   width: 100%;
   background-size: cover;
@@ -1331,6 +1328,9 @@ background-sectiona {
     overflow: auto;
     margin-right: 20px;
   }
+  .changeText{
+    font-size: 10px;
+  }
 }
 
  .container .aboutright .img1 .new-image {
@@ -1370,10 +1370,29 @@ background-sectiona {
 .container .aboutright .img4 .new-image {
   margin-top: -370px;
 }
+.changeText{
+  font-size: 40px;
+}
+
+.setDataBhai{
+  font-size: 40px;
+}
 
 @media screen and (max-width: 768px){
   .container .aboutright .img4 .new-image {
     margin-top: 0px;
   }
-  
+
+  .changeText{
+    font-size: 20px;
+  }
+
+  .tittleBoJa{
+    font-size: 10px;
+  }
+  .setDataBhai{
+    font-size: 20px;
+  }
 }
+
+
