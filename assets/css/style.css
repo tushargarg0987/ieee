@@ -1195,6 +1195,7 @@ header .nav-col .navbar-nav li a p{
 .textContainer {
   margin-top: -15rem;
   transition: margin-top 0.3s;
+  background-color: #00000068;
 }
 
 .imgPlace {
