@@ -670,7 +670,8 @@ header .nav-col .navbar-nav li a:hover {
   width: 100%;
   align-items: center;
   height: 200px;
-  width: 200px;
+  width: 230px;
+  object-fit: cover;
 }
 .our-team .team-row .single-usr {
   transition: transform 0.3s ease; /* Adjust the duration and easing function as needed */
@@ -681,11 +682,12 @@ header .nav-col .navbar-nav li a:hover {
   cursor: pointer;
 }
 .our-team .team-row .single-usr .det-o {
-  width: 200px;
+  width: 230px;
   height: 100px;
   padding: 20px;
   background-color: #51be78;
 }
+
 .our-team .team-row .single-usr .det-o h4 {
   white-space: nowrap;
   color: #fff;
