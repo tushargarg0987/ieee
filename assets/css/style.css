@@ -1411,4 +1411,36 @@ background-sectiona {
   }
 }
 
+@media screen and (max-width: 768px){
+  .img .img5{
+    margin-left: 9px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .footer .footer1{
+    padding-left: 60px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .title .date{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  .navbar1{
+    padding-left: 5rem;
+    
+  }
+}
+
+
+
+
+
+
 
