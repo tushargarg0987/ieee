@@ -670,7 +670,7 @@ header .nav-col .navbar-nav li a:hover {
   width: 100%;
   align-items: center;
   height: 200px;
-  width: 200px;
+  width: 230px;
 }
 .our-team .team-row .single-usr {
   transition: transform 0.3s ease; /* Adjust the duration and easing function as needed */
@@ -681,11 +681,12 @@ header .nav-col .navbar-nav li a:hover {
   cursor: pointer;
 }
 .our-team .team-row .single-usr .det-o {
-  width: 200px;
+  width: 230px;
   height: 100px;
   padding: 20px;
   background-color: #51be78;
 }
+
 .our-team .team-row .single-usr .det-o h4 {
   white-space: nowrap;
   color: #fff;
@@ -1302,6 +1303,15 @@ background-sectiona {
   background-position: center;
 }
 
+
+
+
+
+
+
+
+
+
 .placeOuter{
   background-size: cover;
   padding: 10px;
@@ -1318,4 +1328,119 @@ background-sectiona {
     overflow: auto;
     margin-right: 20px;
   }
+  .changeText{
+    font-size: 10px;
+  }
 }
+
+ .container .aboutright .img1 .new-image {
+  margin-top: -330px;
+}
+
+@media screen and (max-width: 768px){
+  .container .aboutright .img1 .new-image {
+    margin-top: 0px;
+  }
+  
+}
+
+.container .aboutright .img2 .new-image {
+  margin-top: -280px;
+}
+
+@media screen and (max-width: 768px){
+  .container .aboutright .img2 .new-image {
+    margin-top: 0px;
+  }
+  
+}
+
+.container .aboutright .img3 .new-image {
+  margin-top: -300px;
+}
+
+@media screen and (max-width: 768px){
+  .container .aboutright .img3 .new-image {
+    margin-top: 0px;
+  }
+  
+}
+
+
+.container .aboutright .img4 .new-image {
+  margin-top: -370px;
+}
+.changeText{
+  font-size: 40px;
+}
+
+.setDataBhai{
+  font-size: 40px;
+}
+.internationalFontChange{
+  font-size: 26px;
+}
+
+.headerDataSize{
+  font-size: 50px;
+}
+
+@media screen and (max-width: 768px){
+  .container .aboutright .img4 .new-image {
+    margin-top: 0px;
+  }
+
+  .changeText{
+    font-size: 20px;
+  }
+
+  .tittleBoJa{
+    font-size: 10px;
+  }
+  .setDataBhai{
+    font-size: 20px;
+  }
+
+  .internationalFontChange{
+    font-size: 15px;
+    width: 80vw;
+  }
+
+  .headerDataSize{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .img .img5{
+    margin-left: 9px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .footer .footer1{
+    padding-left: 60px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .title .date{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  .navbar1{
+    padding-left: 5rem;
+    
+  }
+}
+
+
+
+
+
+
+
