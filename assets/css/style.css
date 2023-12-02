@@ -1386,6 +1386,7 @@ background-sectiona {
   font-size: 50px;
 }
 
+
 @media screen and (max-width: 768px){
   .container .aboutright .img4 .new-image {
     margin-top: 0px;
@@ -1444,8 +1445,14 @@ background-sectiona {
 }
 
 
+.track-list li{
+  text-align: left;
+}
 
-
+.track-item{
+  text-align: left;
+  padding-left: 1rem;
+}
 
 
 
